@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-color:skyblue;
+    padding: 10px;
+}
+.container div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}

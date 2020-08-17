@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positions</title>
+    <style>
+        body{
+            height: 5000px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            box-shadow: 0 0 5px black;
+        }
+        /*Static Position*/
+        .box1{
+            background-color: red;
+            position: static;
+            left: 50px;
+        }
+        /*Relative Position*/
+        .container{
+            background-color: gray;
+            width: 500px;
+            height: 500px;
+            position: relative;
+            left: 300px;
+        }
+        /*Absolute Position*/
+        .box2{
+            background-color: greenyellow;
+            position: absolute;
+            left: 100px;
+            top: 100px;
+        }
+        .box3{
+            background-color: indigo;
+            position: absolute;
+            bottom: 100px;
+            right: 100px;
+            
+        }
+        /*Fixed Position*/
+        .box4{
+            background-color: lightseagreen;
+            position: fixed;
+            right: 200px;
+            top: 100px;
+            
+        }
+        /*Sticky Position*/
+        .box5{
+            background-color: magenta;
+            top:0px;
+            left: 100px;
+            position: sticky;
+        }
+    </style>
+</head>
+<body>
+    <div class="box box1">
+
+    </div>
+    <div class="container">
+        <div class="box box2">
+
+        </div>
+        <div class="box box3">
+            
+        </div>
+    </div>
+    <div class="box box4">
+
+    </div>
+    <div class="box box5">
+
+    </div>
+</body>
+</html>

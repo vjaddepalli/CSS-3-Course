@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and Pseudo Selectors</title>
+    <style>
+        /*Attribute Selector*/
+        input[type="text"]{
+            background-color: blanchedalmond;
+            color: black;
+        }
+        input[type="password"]{
+            background-color: cornsilk;
+            color: black;
+        }
+        /*Pseudo Selectors*/
+        input[type="text"]:focus{
+            background-color: limegreen;
+            color: red;
+        }
+        input[type="password"]:focus{
+            background-color: royalblue;
+            color: black;
+        }
+        input[type="submit"]:hover{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>User Name</label>
+        <input type="text">
+        <br>
+        <label>Password</label>
+        <input type="password">
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

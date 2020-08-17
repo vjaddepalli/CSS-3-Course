@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+        div{
+            margin: 10px;
+        }
+        h1{
+            background-color: turquoise;
+            padding: 5px;
+            margin: 10px;
+            display: inline;
+        }
+        .para{
+            background-color: gray;
+            color: white;
+            padding: 10px;
+        }
+        span{
+            background-color: chartreuse;
+            color: black;
+            padding: 10px;
+            display: block;
+            margin: 10px;
+        }
+        a{
+            background-color: blueviolet;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            text-decoration: none;
+            display: block;
+        }
+        .parent{
+            background-color: bisque;
+            padding: 10px;
+            text-align: center;
+        }
+        .child{
+            background-color:crimson;
+            color: white;
+            width: 200px;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 10px;
+            box-shadow: 0 0 10px black;
+        }
+        h3{
+            text-align: center;
+            background-color: chartreuse;
+            padding: 10px;
+            color: white;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!--Block to Inline-->
+    <div>
+        <h1>Good Morning</h1>
+        <h1>Good Afternoon</h1>
+        <h1>Good Evening</h1>
+    </div>
+    <!--Inline to Block Level-->
+    <div>
+        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            <span>1.In nesciunt molestiae libero vero accusamus, voluptate, praesentium veritatis et maxime optio sunt unde perferendis? </span>
+            <span>2.Deserunt nulla repudiandae quod at, officia ipsa?Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+            <span>3.eveniet asperiores dicta incidunt ut harum dignissimos, ipsa corrupti. </span>
+            Itaque pariatur cupiditate quasi, earum quaerat exercitationem nam ipsum repudiandae eaque error!
+        </p>
+    </div>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Contact</a>
+    </div>
+    <!--Inline Block-->
+    <div class="parent">
+        <h2 align="center">Inline Block</h2>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti placeat aliquam tenetur voluptatum sed recusandae repellendus? Sit amet facilis quisquam. Deserunt aspernatur voluptatum facere reiciendis placeat excepturi repellat eos?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti placeat aliquam tenetur voluptatum sed recusandae repellendus? Sit amet facilis quisquam. Deserunt aspernatur voluptatum facere reiciendis placeat excepturi repellat eos?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti placeat aliquam tenetur voluptatum sed recusandae repellendus? Sit amet facilis quisquam. Deserunt aspernatur voluptatum facere reiciendis placeat excepturi repellat eos?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti placeat aliquam tenetur voluptatum sed recusandae repellendus? Sit amet facilis quisquam. Deserunt aspernatur voluptatum facere reiciendis placeat excepturi repellat eos?</p>
+        </div>
+        <div class="child">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta corrupti placeat aliquam tenetur voluptatum sed recusandae repellendus? Sit amet facilis quisquam. Deserunt aspernatur voluptatum facere reiciendis placeat excepturi repellat eos?</p>
+        </div>
+    </div>
+    <div>
+        <h3>Hello I am Hidden</h3>
+    </div>
+</body>
+</html>

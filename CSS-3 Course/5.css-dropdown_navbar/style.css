@@ -1,0 +1,43 @@
+
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        .main-header{
+            background: white url("img/image4.jpeg") no-repeat scroll top left;
+            padding: 12px;
+            color: white;
+        }
+        .main-nav{
+            background:linear-gradient(45deg,navy,lightblue);
+            padding: 5px;
+            position: sticky;
+            top: 0;
+        }
+        .main-nav a{
+            color: white;
+            text-decoration: none;
+            padding: 10px 25px;
+            display: inline-block;
+            font-size: 18px;
+        }
+        .main-nav a:hover{
+            background: linear-gradient(45deg,blueviolet,deeppink);
+            border-radius: 50px;
+            box-shadow: 0 0 5px white;
+        }
+        .main-nav a.active{
+            background: linear-gradient(45deg,blueviolet,deeppink);
+            border-radius: 50px;
+            box-shadow: 0 0 5px white;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+        }
+        .drop-down-list{
+            display: none;
+        }
+        .drop-down:hover .drop-down-list{
+            display: block;
+        }

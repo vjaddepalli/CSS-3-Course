@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+.flex-conatiner{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-div{
+    border:2px solid black;
+    width: 180px;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.img-div:hover{
+    box-shadow: 0 0 15px black;
+}
+.desc{
+    padding: 10px;
+}
+.zoom{
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.zoom img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15%;
+    transition: 1s;
+    cursor: pointer;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.zoom:hover{
+    box-shadow: 0 0 15px black;
+}

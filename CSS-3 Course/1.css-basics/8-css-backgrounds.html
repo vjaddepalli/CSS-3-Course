@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Backgrounds</title>
+    <style>
+        body{
+            margin-bottom: 500px;
+        }
+        #bg-color{
+            background-color: navy;
+            color: white;
+        }
+        #bg-img{
+            box-shadow: 0 0 10px navy;
+            padding: 15px;
+            width: 500px;
+            background-image: url(./techbanner.jpg);
+            color: white;
+        }
+        #bg-repeat{
+            width: 500px;
+            height: 500px;
+            box-shadow: 0 0 10px black;
+            background: whitesmoke  url(./gandhi.jpg) repeat-x scroll top left;
+        }
+        #bg-position{
+            width: 500px;
+            height: 500px;
+            box-shadow: 0 0 10px black;
+            background: whitesmoke  url(./gandhi.jpg) no-repeat scroll bottom center;
+        }
+        #bg-attachment{
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background:whitesmoke url(./techbanner.jpg) no-repeat fixed center;
+        }
+        #bg-size{
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            background:whitesmoke url(./techbanner.jpg) no-repeat;
+            background-size:cover;
+        }
+        #linear-gradiant{
+            height: 300px;
+            width: 500px;
+            box-shadow: 0 0 10px black;
+            background-image: linear-gradient(orange,white,green);
+        }
+    </style>
+</head>
+<body>
+    <h2>Background Color</h2>
+    <div id="bg-color">
+        <h1>I am with Navy color background</h1>
+    </div>
+    <h2>Background Image</h2>
+    <div id="bg-img">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, deleniti ratione iusto atque ad laboriosam nam ullam unde repellat harum, nostrum officia repudiandae velit consequuntur corporis explicabo reiciendis aperiam officiis.</p>
+    </div>
+    <h2>Background Attachment</h2>
+    <div id="bg-attachment">
+
+    </div>
+    <h2>Background Repeat</h2>
+    <div id="bg-repeat">
+
+    </div>
+    <h2>Background Position</h2>
+    <div id="bg-position">
+
+    </div>
+    <h2>Background Size</h2>
+    <div id="bg-size">
+
+    </div>
+    <h2>Linear Gradiant</h2>
+    <div id="linear-gradiant">
+
+    </div>
+</body>
+</html>

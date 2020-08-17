@@ -1,0 +1,53 @@
+.register-div{
+    font-family: sans-serif;
+    background:linear-gradient(45deg,blueviolet,deeppink);
+    margin: 100px auto;
+    width: 300px;
+    padding: 15px;
+    color: white;
+}
+h2{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 25px;
+}
+.form-control{
+    font-size: 18px;
+    width: 270px;
+    height: 25px;
+    outline: none;
+    border: none;
+    color: pink;
+    background: transparent;
+    margin: 15px;
+    border-bottom: 2px solid pink;
+    
+}
+::placeholder{
+    color: pink;
+}
+.register-btn{
+    padding: 10px 15px;
+    background: linear-gradient(40deg,blueviolet,deeppink);
+    width: 280px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px black;
+    color: white;
+    font-size: 20px;
+}
+.fa-user-circle{
+    border: 5px solid deeppink;
+    margin: -50% 35%;
+    background-color: deeppink;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px black;
+}
+.form-control:focus option{
+    color: pink;
+}
+.form-control:focus{
+    border-bottom:2px solid white;
+}

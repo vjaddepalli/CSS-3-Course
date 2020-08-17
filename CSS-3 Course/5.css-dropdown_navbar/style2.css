@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+nav{
+    background-color: orange;
+    overflow: hidden;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    float: left; /*overflow bg color*/
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 14px 25px;
+    display: inline-block;
+}
+nav ul li a:hover{
+     background-color: orangered;
+     color: white;
+}
+.drop_down-list{
+    background-color: lightsalmon;
+    position: absolute;
+    display: none;
+}
+.drop_down-list a{
+    display: block;
+}
+/*--------For Hover Effect-----*/
+.dropdown:hover .drop_down-list{
+    display: block;
+}
+.fa{
+    font-size: 15px;
+    margin: 0 5px;
+}
